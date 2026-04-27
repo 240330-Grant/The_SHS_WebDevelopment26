@@ -1,3 +1,5 @@
+@import url(rainbow.css);
+
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -101,4 +103,35 @@ h1, h2, h3, h4, h5, h6{
 
 #footerTable {
   background-color: rgb(255, 255, 255);
+}
+
+.Thething {
+	border-radius: 30%l;
+	background-color: #0e0364;
+	display: inline-block;
+	padding: 10px 35px;
+	font-size: 16px;
+	cursor: pointer;
+	color: white;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: 0 10px rgb(42, 42, 41);
+}
+
+.Thething:hover {
+	background-color: #000000;
+}
+
+.Thething:active {
+  background-color: #ff54cf;
+  box-shadow: 0 6px rgb(182, 182, 192);
+  transform: translateY(5px);
+}
+
+.a:link{
+	color: white;
+}
+
+.a:visited{
+	color: rgb(255, 0, 0);
 }
