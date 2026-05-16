@@ -47,7 +47,7 @@ function show_coords(event) {
 }
 
 
-function uppperCase() {
+function upperCase(){
   const x = document.getElementById("fname");
   x.value = x.value.toUpperCase();
 }
